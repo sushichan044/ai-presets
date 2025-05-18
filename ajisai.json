@@ -1,0 +1,10 @@
+{
+  "package": {
+    "exports": {
+      "example1": {
+        "rules": ["example1/rules/**/*.md"],
+        "prompts": ["example1/prompts/**/*.md"]
+      }
+    }
+  }
+}
