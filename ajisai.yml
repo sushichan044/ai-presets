@@ -1,10 +1,13 @@
 package:
   name: sushichan044-ai-presets
   exports:
+    essentials:
+      rules:
+        - "essentials/rules/**/*.md"
+      prompts:
+        - "essentials/prompts/**/*.md"
     example1:
       rules:
         - "example1/rules/**/*.md"
-        - "example1/rules/*.md"
       prompts:
         - "example1/prompts/**/*.md"
-        - "example1/prompts/*.md"
