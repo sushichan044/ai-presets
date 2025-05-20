@@ -1,9 +1,10 @@
-package: 
-  exports: 
-    example1: 
-      rules: 
-      - "example1/rules/**/*.md"
-      - "example1/rules/*.md"
-      prompts: 
-      - "example1/prompts/**/*.md"
-      - "example1/prompts/*.md"
+package:
+  name: sushichan044-ai-presets
+  exports:
+    example1:
+      rules:
+        - "example1/rules/**/*.md"
+        - "example1/rules/*.md"
+      prompts:
+        - "example1/prompts/**/*.md"
+        - "example1/prompts/*.md"
