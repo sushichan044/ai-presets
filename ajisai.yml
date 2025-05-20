@@ -3,5 +3,7 @@ package:
     example1: 
       rules: 
       - "example1/rules/**/*.md"
+      - "example1/rules/*.md"
       prompts: 
       - "example1/prompts/**/*.md"
+      - "example1/prompts/*.md"
