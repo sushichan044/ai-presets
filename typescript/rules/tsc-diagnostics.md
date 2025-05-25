@@ -17,4 +17,8 @@ description: Read when you want to get statistics on the time and memory the Typ
 
 3. Create `main.ts` in the same directory and paste full implementations you want to check.
 
-4. Run tsc with `npx tsc -p <path to tmp tsconfig> --diagnostics`
+4. Run tsc with `npx -y tsc -p <path to tmp tsconfig> --diagnostics`
+
+## Tip: Get diagnostics from typescript-go (tsc implementation in Go)
+
+Simply change command in step 4 to `npx -y @typescript/native-preview -p <path to tmp tsconfig> --diagnostics`
