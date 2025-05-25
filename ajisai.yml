@@ -6,8 +6,13 @@ package:
         - "essentials/rules/**/*.md"
       prompts:
         - "essentials/prompts/**/*.md"
-    example1:
+    tdd:
       rules:
-        - "example1/rules/**/*.md"
+        - "tdd/rules/**/*.md"
       prompts:
-        - "example1/prompts/**/*.md"
+        - "tdd/prompts/**/*.md"
+    typescript:
+      rules:
+        - "typescript/rules/**/*.md"
+      prompts:
+        - "typescript/prompts/**/*.md"

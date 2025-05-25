@@ -1,5 +1,0 @@
----
-attach: always
----
-
-# hoge
